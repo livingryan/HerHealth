@@ -1,0 +1,30 @@
+herhealth-frontend@0.1.0 c:\HerHealth\frontend
+├─┬ @testing-library/react@16.3.3
+│ ├── react-dom@18.3.1 deduped
+│ └── react@18.3.1 deduped
+├─┬ lucide-react@0.453.0
+│ └── react@18.3.1 deduped
+├─┬ react-dom@18.3.1
+│ └── react@18.3.1 deduped
+├─┬ react-hook-form@7.90.0
+│ └── react@18.3.1 deduped
+├─┬ react-i18next@17.1.0
+│ ├── react@18.3.1 deduped
+│ └─┬ use-sync-external-store@1.7.0
+│   └── react@18.3.1 deduped
+├─┬ react-router-dom@6.30.6
+│ ├── react-dom@18.3.1 deduped
+│ ├─┬ react-router@6.30.6
+│ │ └── react@18.3.1 deduped
+│ └── react@18.3.1 deduped
+├── react@18.3.1
+└─┬ recharts@2.15.4
+  ├── react-dom@18.3.1 deduped
+  ├─┬ react-smooth@4.0.4
+  │ ├── react-dom@18.3.1 deduped
+  │ ├─┬ react-transition-group@4.4.5
+  │ │ ├── react-dom@18.3.1 deduped
+  │ │ └── react@18.3.1 deduped
+  │ └── react@18.3.1 deduped
+  └── react@18.3.1 deduped
+

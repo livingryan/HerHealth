@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Builds
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+.env.local
+.env.*.local
+venv/
+.venv/
+
+# Local prototype data (SQLite + uploads are gitignored; regenerated on first run)
+backend/data/*.db
+backend/data/*.sqlite
+backend/uploads/*
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
