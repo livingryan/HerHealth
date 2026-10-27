@@ -7,6 +7,7 @@
     "anemia_screening": "Anemia Screening",
     "reports": "Reports & History",
     "journal": "Journal",
+    "image_testing": "Image Testing",
     "language": "Language"
   },
   "home": {
@@ -320,5 +321,13 @@
     "submit": "Submit for review",
     "limitation": "Important limitation",
     "limitation_text": "This prototype cannot and does not analyze images for anemia. No result, probability, or diagnosis will be returned. Please consult a clinician for any health concerns."
+  },
+  "image_testing": {
+    "title": "Image Testing",
+    "subtitle": "Upload photos of your inner lower eyelid and fingernails to test the image upload flow. AI analysis is not connected.",
+    "not_connected": "AI image analysis is not connected",
+    "not_connected_text": "No model has been validated or integrated, so this page never returns an anemia result, probability, or diagnosis. It only tests image selection, preview, and removal. Photographs alone cannot confirm anemia — appropriate clinical testing, such as a complete blood count, may be necessary. Please consult a clinician for any health concerns.",
+    "start_testing": "Start testing",
+    "start_over": "Start over"
   }
 }

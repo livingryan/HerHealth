@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { Menu, X, BookOpen, Droplets, BookMarked, Home, LayoutDashboard } from "lucide-react";
+import { Menu, X, BookOpen, Droplets, BookMarked, Home, LayoutDashboard, Image } from "lucide-react";
 import { Logo } from "../Logo";
 import { Link } from "../ui/Link";
 import { useTranslation } from "react-i18next";
@@ -19,6 +19,7 @@ const navItems: NavItem[] = [
   { href: "/cycle-tracking", labelKey: "nav.cycle_tracking", icon: Droplets },
   { href: "/education", labelKey: "nav.education", icon: BookOpen },
   { href: "/journal", labelKey: "nav.journal", icon: BookMarked },
+  { href: "/image-testing", labelKey: "nav.image_testing", icon: Image },
 ];
 
 interface Language {
