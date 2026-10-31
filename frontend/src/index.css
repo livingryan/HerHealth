@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-blush: #fff8fa;
+    --color-baby: #f8dce6;
+    --color-rose: #fcebf1;
+    --color-pink: #e9a1ba;
+    --color-deep: #8d435f;
+    --color-cream: #fff3e8;
+    --color-sage: #b8cdb8;
+    --color-ink: #382c32;
+    --color-border: #f0dde3;
+  }
+
+  html {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body {
+    background-color: var(--color-blush);
+    color: var(--color-ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Display serif headings for editorial voice */
+  h1, h2, h3, h4, .font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  }
+
+  h1 {
+    @apply text-display-lg tracking-tight text-ink;
+  }
+
+  h2 {
+    @apply text-display-md tracking-tight text-ink;
+  }
+
+  h3 {
+    @apply text-section text-ink;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Accessible focus states */
+  :focus-visible {
+    outline: 2px solid var(--color-pink);
+    outline-offset: 2px;
+  }
+
+  .page-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (max-width: 640px) {
+    .section {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+    }
+  }
+}
+
+@layer components {
+  .sr-only-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}

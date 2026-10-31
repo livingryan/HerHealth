@@ -1,0 +1,333 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "education": "Education",
+    "cycle_tracking": "Tracking",
+    "anemia_screening": "Anemia Screening",
+    "reports": "Reports & History",
+    "journal": "Journal",
+    "image_testing": "Image Testing",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "heading": "Your body keeps a quiet rhythm",
+      "subtitle": "Track your cycle, learn about your health, and prepare for informed conversations with your clinician.",
+      "explore": "Start Tracking",
+      "eyebrow": "HerHealth AI",
+      "learn": "Explore Education"
+    },
+    "features": {
+      "tracking": {
+        "eyebrow": "Log your cycle, your way",
+        "title": "Menstrual health tracking",
+        "description": "Record period start and end dates, flow intensity, mood, and symptoms. Over time you'll see your own cycle length and period duration — your baseline, not an average. We never invent dates or present estimates as facts.",
+        "cta": "Open cycle tracking →"
+      },
+      "education": {
+        "eyebrow": "Read, don't self-diagnose",
+        "title": "Women's health education",
+        "description": "Original articles on menstrual health, PCOS, endometriosis, nutrition, preventive care, and when to seek medical attention — each with references to reputable health organizations.",
+        "cta": "Browse education library →"
+      },
+      "journal": {
+        "eyebrow": "Reflect on your wellbeing",
+        "title": "Wellness journal",
+        "description": "Write daily notes about how you're feeling. Track mood, energy, and patterns over time. Your private space for health reflections.",
+        "cta": "Open your journal →"
+      },
+      "screening": {
+        "eyebrow": "Signature feature — in development",
+        "title": "Image-assisted anemia screening",
+        "description": "HerHealth AI's first screening feature works with two kinds of photos: a close-up of your inner lower eyelid (conjunctiva), and a close-up of a fingernail or nail bed. Changes in pallor can be associated with anemia — but photos alone cannot measure hemoglobin or confirm anything.",
+        "honest_title": "Honest about what this is — and isn't",
+        "honest_text": "Real AI analysis is not available yet. No model has been validated or integrated, so this will never return a fabricated anemia probability. A blood test is the only way to confirm anemia."
+      }
+    },
+    "privacy": {
+      "heading": "Privacy & responsible design",
+      "text": "Your health records are yours. Cycle entries, journal notes, and wellness data are stored locally in your browser — not on remote servers or shared with third parties.",
+      "items": {
+        "local": { "title": "Stored locally", "body": "Your personal records live in your browser's local storage." },
+        "nocollect": { "title": "No silent data collection", "body": "No third-party AI services. No logging of image contents." },
+        "control": { "title": "You stay in control", "body": "Delete your data at any time from settings." }
+      }
+    },
+    "education_browse": "Browse the full education library",
+    "calendar_preview": "Period days, flow intensity, and symptom notes appear on your calendar once you log your first entry."
+  },
+  "cycle": {
+    "title": "Cycle Tracking",
+    "subtitle": "Log period dates, flow, mood, and symptoms. Your data, your patterns.",
+    "calendar_nav_prev": "Previous month",
+    "calendar_nav_next": "Next month",
+    "legend": {
+      "period": "Period",
+      "predicted": "Predicted",
+      "fertile": "Fertile window",
+      "ovulation": "Ovulation",
+      "today": "Today"
+    },
+    "log_entry": "Log entry for",
+    "edit_entry": "Edit entry for",
+    "flow_label": "Flow",
+    "flow": {
+      "spotting": "Spotting",
+      "light": "Light",
+      "medium": "Medium",
+      "heavy": "Heavy"
+    },
+    "period_start": "Period started",
+    "period_end": "Period ended",
+    "cramps": "Cramps",
+    "pain_level": "Pain level (0–10)",
+    "mood": "Mood",
+    "mood_options": {
+      "great": "Great",
+      "good": "Good",
+      "okay": "Okay",
+      "low": "Low",
+      "anxious": "Anxious",
+      "irritable": "Irritable"
+    },
+    "energy": "Energy level",
+    "energy_options": {
+      "high": "High",
+      "normal": "Normal",
+      "low": "Low",
+      "exhausted": "Exhausted"
+    },
+    "symptoms": "Symptoms",
+    "symptom_options": {
+      "headache": "Headache",
+      "bloating": "Bloating",
+      "fatigue": "Fatigue",
+      "acne": "Acne",
+      "breast_tenderness": "Breast tenderness",
+      "nausea": "Nausea",
+      "back_pain": "Back pain",
+      "mood_swings": "Mood swings",
+      "insomnia": "Insomnia"
+    },
+    "notes": "Notes",
+    "notes_placeholder": "Anything you'd like to remember about today...",
+    "save": "Save entry",
+    "delete": "Delete entry",
+    "delete_confirm": "Are you sure you want to delete this entry? This cannot be undone.",
+    "cancel": "Cancel",
+    "no_entry": "No entry logged for this day.",
+    "add_entry": "Add entry",
+    "history_title": "Cycle history",
+    "estimates_title": "Estimates",
+    "estimates_disclaimer": "Estimates are based on your recorded data and may not match your actual cycle. They are not a reliable guide for contraception.",
+    "next_period_est": "Estimated next period",
+    "avg_cycle_length": "Average cycle length",
+    "avg_period_duration": "Average period duration",
+    "fertile_window_est": "Estimated fertile window",
+    "ovulation_est": "Estimated ovulation",
+    "days": "days",
+    "insufficient_data": "Log at least 2 period start dates to see cycle estimates.",
+    "period_entry": "Period entry",
+    "started": "Started",
+    "ended": "Ended",
+    "duration": "Duration",
+    "no_history": "No cycle entries yet. Start by logging your period dates."
+  },
+  "education": {
+    "title": "Health Education Library",
+    "subtitle": "Evidence-based articles about women's health. Always refer to a clinician for personal medical advice.",
+    "search_placeholder": "Search articles...",
+    "all_categories": "All topics",
+    "read_more": "Read article",
+    "min_read": "min read",
+    "bookmark_add": "Bookmark",
+    "bookmark_remove": "Remove bookmark",
+    "bookmarked": "Bookmarked",
+    "bookmarks_title": "Bookmarked articles",
+    "no_bookmarks": "No bookmarks yet. Tap the bookmark icon on any article.",
+    "no_results": "No articles match your search.",
+    "no_results_hint": "Try a different search term or clear the filter.",
+    "related_articles": "Related articles",
+    "back_to_library": "← Back to library",
+    "sources": "Sources & references",
+    "disclaimer": "This article is for general health education only. It does not constitute medical advice. Consult a qualified clinician for personal health decisions.",
+    "categories": {
+      "all": "All topics",
+      "anemia": "Anemia",
+      "nutrition": "Nutrition",
+      "menstrual_health": "Menstrual health",
+      "pcos": "PCOS",
+      "endometriosis": "Endometriosis",
+      "pms": "PMS & PMDD",
+      "vaginal_health": "Vaginal health",
+      "preventive_care": "Preventive care",
+      "care_guidance": "Care guidance"
+    }
+  },
+  "journal": {
+    "title": "Wellness Journal",
+    "subtitle": "A private space for your daily health reflections. Your entries are stored locally on this device.",
+    "new_entry": "New entry",
+    "edit_entry": "Edit entry",
+    "date_label": "Date",
+    "mood_label": "Mood",
+    "energy_label": "Energy",
+    "symptoms_label": "Symptoms",
+    "sleep_label": "Sleep quality",
+    "sleep_options": {
+      "great": "Great",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor"
+    },
+    "notes_label": "Notes",
+    "notes_placeholder": "How are you feeling today? What do you notice about your body or mood?",
+    "save": "Save entry",
+    "delete": "Delete",
+    "delete_confirm": "Delete this journal entry? This cannot be undone.",
+    "cancel": "Cancel",
+    "no_entries": "No journal entries yet.",
+    "no_entries_hint": "Start writing to track patterns in how you feel over time.",
+    "insights_title": "Your patterns",
+    "insights_disclaimer": "These observations are based on your journal entries only. They are not medical assessments.",
+    "most_common_mood": "Most common mood",
+    "most_common_energy": "Most common energy",
+    "frequent_symptoms": "Frequently logged symptoms",
+    "entries_count": "entries",
+    "mood": {
+      "great": "Great",
+      "good": "Good",
+      "okay": "Okay",
+      "low": "Low",
+      "anxious": "Anxious",
+      "irritable": "Irritable"
+    },
+    "energy": {
+      "high": "High",
+      "normal": "Normal",
+      "low": "Low",
+      "exhausted": "Exhausted"
+    },
+    "privacy_note": "Your journal entries are stored only in this browser. They are never sent to any server or third party."
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "shortcuts": {
+      "cycle_tracking": "Cycle tracking",
+      "cycle_tracking_description": "Log period dates, flow, and symptoms.",
+      "anemia_screening": "Anemia screening",
+      "anemia_screening_description": "Image-assisted screening for inner lower-eyelid and fingernail photos.",
+      "health_education": "Health education",
+      "health_education_description": "Articles on anemia, menstrual health, PCOS, and preventive care.",
+      "reports": "Reports & history",
+      "reports_description": "Your saved records and printable summaries."
+    },
+    "cycle_overview": {
+      "last_period": "Last period start",
+      "flow": "Flow",
+      "symptoms": "Symptoms",
+      "note": "Cycle length estimates require at least two recorded periods."
+    },
+    "next_steps": "Suggested next steps",
+    "screening_history": {
+      "anemia": "Anemia"
+    },
+    "no_screening_sessions": "No screening sessions yet",
+    "screening_welcome": "When you complete an anemia screening, it will appear here with its status. Image analysis is not available yet.",
+    "recent_activity": "Recent activity",
+    "nothing_recent": "Nothing recent yet",
+    "cycle_entries": "Your cycle entries, screening sessions, and questionnaire summaries will appear here.",
+    "suggested_reading": "Suggested reading",
+    "browse_library": "Browse library →",
+    "featured_education": "Featured education",
+    "see_all": "See all",
+    "try_again": "Try again",
+    "unable_load": "Unable to load dashboard",
+    "start_here": "Start here",
+    "log_a_period": "Log a period",
+    "status": {
+      "model_unavailable": "model unavailable"
+    }
+  },
+  "common": {
+    "back_to_dashboard": "Back to dashboard",
+    "coming_soon": "Coming soon",
+    "return_to_dashboard": "Return to dashboard",
+    "not_found": "Page not found",
+    "not_found_desc": "The page you're looking for doesn't exist.",
+    "go_home": "Go to home",
+    "loading": "Loading...",
+    "error_loading": "Something went wrong. Please try again.",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "clear": "Clear",
+    "learn_more": "Learn more",
+    "read_aloud": "Read aloud",
+    "pause": "Pause",
+    "stop": "Stop"
+  },
+  "forms": {
+    "required": "This field is required",
+    "invalid_email": "Invalid email address",
+    "min_length": "Minimum {{min}} characters required",
+    "max_length": "Maximum {{max}} characters allowed",
+    "pattern": "Does not match required pattern",
+    "upload": {
+      "drop_zone": "Drag and drop image here",
+      "browse": "Browse files",
+      "or": "or",
+      "select": "Select image",
+      "remove": "Remove",
+      "replace": "Replace",
+      "size_limit": "Image must be under {{max_size}}MB",
+      "type_limit": "Allowed types: {{types}}",
+      "supported": "JPEG, PNG, WebP"
+    }
+  },
+  "empty_states": {
+    "no_entries": "No entries yet",
+    "no_screening": "No screening sessions yet",
+    "no_activity": "Nothing recent yet",
+    "no_articles": "No articles found",
+    "no_faqs": "No FAQs found",
+    "no_results": "No results found"
+  },
+  "errors": {
+    "api_unavailable": "Unable to reach the server",
+    "network_error": "Network error",
+    "failed_fetch": "Failed to fetch data"
+  },
+  "screening": {
+    "title": "Anemia Screening",
+    "subtitle": "An image-assisted research prototype. This is not a diagnostic tool.",
+    "prototype_note": "This feature is a research prototype. No validated AI model is integrated. It will never return a fabricated diagnosis.",
+    "what_it_is": "What this feature explores",
+    "what_it_is_desc": "Changes in eyelid pallor and nail bed color can sometimes be associated with anemia. This prototype explores whether image capture could support awareness — but a blood test (complete blood count) is the only way to confirm anemia.",
+    "consent_heading": "Your consent",
+    "consent_text": "Images you upload are validated locally (file type and size). They are processed only to display a preview and to record that an attempt was made. No image content is analyzed, stored permanently, or sent to a third party.",
+    "upload_eyelid": "Upload inner eyelid photo",
+    "upload_nail": "Upload fingernail photo",
+    "guidance_eyelid": "Look straight ahead, gently pull the lower lid down, use natural light, no flash.",
+    "guidance_nail": "Natural nails only, daylight, no filters, hold camera steady.",
+    "submit": "Submit for review",
+    "limitation": "Important limitation",
+    "limitation_text": "This prototype cannot and does not analyze images for anemia. No result, probability, or diagnosis will be returned. Please consult a clinician for any health concerns."
+  },
+  "image_testing": {
+    "title": "Image Testing",
+    "subtitle": "Upload photos of your inner lower eyelid and fingernails to test the image upload flow. AI analysis is not connected.",
+    "not_connected": "AI image analysis is not connected",
+    "not_connected_text": "No model has been validated or integrated, so this page never returns an anemia result, probability, or diagnosis. It only tests image selection, preview, and removal. Photographs alone cannot confirm anemia — appropriate clinical testing, such as a complete blood count, may be necessary. Please consult a clinician for any health concerns.",
+    "start_testing": "Start testing",
+    "start_over": "Start over"
+  }
+}

@@ -1,0 +1,1747 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HerHealth AI ΓÇö a gentler way to understand your health, notice patterns, and take informed next steps.">
+    <title>HerHealth AI ΓÇö Your health, understood.</title>
+  <style type="text/css" data-vite-dev-id="C:/HerHealth/frontend/src/index.css">*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: 'Noto Sans Marathi', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+  :root {
+
+    --color-blush: #fff8fa;
+
+    --color-baby: #f8dce6;
+
+    --color-rose: #fcebf1;
+
+    --color-pink: #e9a1ba;
+
+    --color-deep: #8d435f;
+
+    --color-cream: #fff3e8;
+
+    --color-sage: #b8cdb8;
+
+    --color-ink: #382c32;
+
+    --color-border: #f0dde3;
+
+  }
+
+
+
+  html {
+
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  }
+
+
+
+  body {
+
+    background-color: var(--color-blush);
+
+    color: var(--color-ink);
+
+    line-height: 1.6;
+
+    -webkit-font-smoothing: antialiased;
+
+  }
+
+
+
+  /* Display serif headings for editorial voice */
+
+  h1, h2, h3, h4, .font-serif {
+
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+
+  }
+
+
+
+  h1 {
+  font-size: 2.75rem;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(56 44 50 / var(--tw-text-opacity, 1));
+}
+
+
+
+  h2 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(56 44 50 / var(--tw-text-opacity, 1));
+}
+
+
+
+  h3 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  --tw-text-opacity: 1;
+  color: rgb(56 44 50 / var(--tw-text-opacity, 1));
+}
+
+
+
+  a {
+
+    color: inherit;
+
+    text-decoration: inherit;
+
+  }
+
+
+
+  img {
+
+    max-width: 100%;
+
+    display: block;
+
+  }
+
+
+
+  /* Accessible focus states */
+
+  :focus-visible {
+
+    outline: 2px solid var(--color-pink);
+
+    outline-offset: 2px;
+
+  }
+
+
+
+  .page-container {
+
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 0 1.5rem;
+
+  }
+
+
+
+  .section {
+
+    padding-top: 4rem;
+
+    padding-bottom: 4rem;
+
+  }
+
+
+
+  @media (max-width: 640px) {
+
+    .section {
+
+      padding-top: 2.5rem;
+
+      padding-bottom: 2.5rem;
+
+    }
+
+  }
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.inset-0 {
+  inset: 0px;
+}
+
+.-left-8 {
+  left: -2rem;
+}
+
+.-top-8 {
+  top: -2rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-\[1px\] {
+  height: 1px;
+}
+
+.h-\[460px\] {
+  height: 460px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-\[560px\] {
+  max-width: 560px;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-xs {
+  max-width: 20rem;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.space-y-1\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.375rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.875rem;
+}
+
+.rounded-md {
+  border-radius: 0.625rem;
+}
+
+.rounded-sm {
+  border-radius: 0.375rem;
+}
+
+.rounded-xl {
+  border-radius: 1.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 221 227 / var(--tw-border-opacity, 1));
+}
+
+.border-deep\/20 {
+  border-color: rgb(141 67 95 / 0.2);
+}
+
+.bg-baby {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 220 230 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blush\/80 {
+  background-color: rgb(255 248 250 / 0.8);
+}
+
+.bg-border {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 221 227 / var(--tw-bg-opacity, 1));
+}
+
+.bg-cream {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 243 232 / var(--tw-bg-opacity, 1));
+}
+
+.bg-deep {
+  --tw-bg-opacity: 1;
+  background-color: rgb(141 67 95 / var(--tw-bg-opacity, 1));
+}
+
+.bg-pink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 161 186 / var(--tw-bg-opacity, 1));
+}
+
+.bg-pink\/30 {
+  background-color: rgb(233 161 186 / 0.3);
+}
+
+.bg-rose {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 235 241 / var(--tw-bg-opacity, 1));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-sans {
+  font-family: 'Noto Sans Marathi', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, Times New Roman, serif;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.text-display-md {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-section {
+  font-size: 1.5rem;
+  line-height: 1.35;
+}
+
+.text-sm {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.text-deep {
+  --tw-text-opacity: 1;
+  color: rgb(141 67 95 / var(--tw-text-opacity, 1));
+}
+
+.text-deep\/80 {
+  color: rgb(141 67 95 / 0.8);
+}
+
+.text-deep\/90 {
+  color: rgb(141 67 95 / 0.9);
+}
+
+.text-ink {
+  --tw-text-opacity: 1;
+  color: rgb(56 44 50 / var(--tw-text-opacity, 1));
+}
+
+.text-ink\/50 {
+  color: rgb(56 44 50 / 0.5);
+}
+
+.text-ink\/60 {
+  color: rgb(56 44 50 / 0.6);
+}
+
+.text-ink\/70 {
+  color: rgb(56 44 50 / 0.7);
+}
+
+.text-ink\/80 {
+  color: rgb(56 44 50 / 0.8);
+}
+
+.text-pink {
+  --tw-text-opacity: 1;
+  color: rgb(233 161 186 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-soft {
+  --tw-shadow: 0 4px 20px -6px rgba(141, 67, 95, 0.08);
+  --tw-shadow-colored: 0 4px 20px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.placeholder\:text-ink\/40::-moz-placeholder {
+  color: rgb(56 44 50 / 0.4);
+}
+
+.placeholder\:text-ink\/40::placeholder {
+  color: rgb(56 44 50 / 0.4);
+}
+
+.hover\:bg-baby:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 220 230 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-deep:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(141 67 95 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-pink:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 161 186 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-rose:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 235 241 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-deep:hover {
+  --tw-text-opacity: 1;
+  color: rgb(141 67 95 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-deep\/80:hover {
+  color: rgb(141 67 95 / 0.8);
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.focus-visible\:underline:focus-visible {
+  text-decoration-line: underline;
+}
+
+.focus-visible\:outline-none:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus-visible\:outline:focus-visible {
+  outline-style: solid;
+}
+
+.focus-visible\:ring-2:focus-visible {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus-visible\:ring-pink:focus-visible {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(233 161 186 / var(--tw-ring-opacity, 1));
+}
+
+.focus-visible\:ring-offset-2:focus-visible {
+  --tw-ring-offset-width: 2px;
+}
+
+.focus-visible\:ring-offset-blush:focus-visible {
+  --tw-ring-offset-color: #FFF8FA;
+}
+
+.disabled\:pointer-events-none:disabled {
+  pointer-events: none;
+}
+
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+
+.disabled\:bg-baby:disabled {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 220 230 / var(--tw-bg-opacity, 1));
+}
+
+.disabled\:opacity-100:disabled {
+  opacity: 1;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: 640px) {
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:static {
+    position: static;
+  }
+
+  .md\:relative {
+    position: relative;
+  }
+
+  .md\:left-0 {
+    left: 0px;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .lg\:items-end {
+    align-items: flex-end;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
+  }
+
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+}</style></head>
+  <body>
+    <div id="root"><div class="min-h-screen flex flex-col"><header class="sticky top-0 z-40 bg-blush/80 border-b border-border"><div class="page-container flex items-center justify-between h-16"><a href="/" class="font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 flex items-center gap-2 font-serif text-section" aria-label="HerHealth AI home"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="shrink-0"><path d="M14 22c-3.3 0-6-2.7-6-6 0-1.7 0.7-3.2 1.8-4.3C7.9 12.4 7 11 7 9a1 1 0 1 1 2 0c0 1.1 0.9 2 2 2 0.6 0 1.1-0.2 1.5-0.6l1.5 1.5c-0.4 0.4-0.9 0.6-1.5 0.6-1.1 0-2 0.9-2 2 0 1.1 0.9 2 2 2s2-0.9 2-2c0-1.1 0.9-2 2-2s2 0.9 2 2c0 2-0.9 3.4-2.2 4.7C18 14.8 14 19.3 14 22Z" fill="#8D435F"></path><path d="M14 26a1 1 0 1 1 0-2c-3.9 0-7-3.1-7-7 0-1.1 0.2-2.1 0.6-3 0.1-0.2 0.1-0.4 0.1-0.6a1 1 0 1 1 2 0c0 0.2 0 0.4 0.1 0.6 0.4 0.9 0.6 1.9 0.6 3 0 3.9-3.1 7-7 7" fill="#F8DCE6"></path><path d="M14 22c3.3 0 6-2.7 6-6 0-1.7-0.7-3.2-1.8-4.3C20.1 12.4 21 11 21 9a1 1 0 1 0-2 0c0 1.1-0.9 2-2 2-0.6 0-1.1 0.2-1.5 0.6l-1.5 1.5c0.4 0.4 0.9 0.6 1.5 0.6 1.1 0 2 0.9 2 2 0 1.1-0.9 2-2 2s-2-0.9-2-2c0-1.1-0.9-2-2-2s-2 0.9-2-2c0-2 0.9-3.4 2.2-4.7C10 14.8 14 19.3 14 22Z" fill="#E9A1BA"></path><circle cx="14" cy="10" r="2.6" fill="#FCEBF1"></circle><circle cx="14" cy="10" r="1" fill="#8D435F" opacity="0.35"></circle></svg><span class="font-serif text-xl font-semibold text-ink tracking-tight">HerHealth</span><span class="text-xs font-sans font-semibold text-pink tracking-wider uppercase ml-1">AI</span></a><nav class="hidden md:flex items-center gap-8 text-sm"><a aria-current="page" class="flex items-center gap-2 px-3 py-2 rounded-lg text-ink/70 transition-colors hover:bg-rose hover:text-deep bg-deep text-white" href="/">nav.home</a><a class="flex items-center gap-2 px-3 py-2 rounded-lg text-ink/70 transition-colors hover:bg-rose hover:text-deep" href="/dashboard"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text shrink-0 text-ink/60"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>nav.dashboard</a><a class="flex items-center gap-2 px-3 py-2 rounded-lg text-ink/70 transition-colors hover:bg-rose hover:text-deep" href="/education"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open shrink-0 text-ink/60"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>nav.education</a><a class="flex items-center gap-2 px-3 py-2 rounded-lg text-ink/70 transition-colors hover:bg-rose hover:text-deep" href="/cycle-tracking"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets shrink-0 text-ink/60"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path></svg>nav.cycle_tracking</a><a class="flex items-center gap-2 px-3 py-2 rounded-lg text-ink/70 transition-colors hover:bg-rose hover:text-deep" href="/screening/anemia"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin shrink-0 text-ink/60"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>nav.anemia_screening</a></nav><div class="flex items-center gap-3"><button class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-border text-ink hover:bg-rose" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><div class="hidden md:inline-flex items-center gap-2"><button class="
+                rounded-md border border-border text-sm text-ink/60 hover:bg-rose hover:text-deep transition-colors
+                focus-visible:outline focus-visible:ring-2 focus-visible:ring-pink
+              " aria-label="English" title="English">English</button><button class="
+                rounded-md border border-border text-sm text-ink/60 hover:bg-rose hover:text-deep transition-colors
+                focus-visible:outline focus-visible:ring-2 focus-visible:ring-pink
+              " aria-label="Marathi" title="Marathi">αñ«αñ░αñ╛αñáαÑÇ</button><button class="
+                rounded-md border border-border text-sm text-ink/60 hover:bg-rose hover:text-deep transition-colors
+                focus-visible:outline focus-visible:ring-2 focus-visible:ring-pink
+              " aria-label="Hindi" title="Hindi">αñ╣αñ┐αñ¿αÑìαñªαÑÇ</button></div></div></div></header><main class="flex-grow" aria-label="Main content"><div class="min-h-screen"><section class="relative pt-20 pb-24 md:pt-32 md:pb-32 overflow-hidden"><div class="page-container"><div class="md:grid md:grid-cols-2 md:items-center md:gap-12"><div class="order-2 md:order-1"><div class="absolute -top-8 -left-8 md:relative md:static md:top-0 md:left-0"><div class="h-[1px] w-24 bg-border mx-4 mb-6 hidden md:block"></div></div><p class="text-xs font-sans font-semibold text-pink tracking-wider uppercase mb-4">HerHealth AI</p><h1 class="mb-6">Your body keeps a quiet rhythm.<br>Learn to read it.</h1><p class="text-body-lg text-ink/80 mb-8 max-w-lg">Your health, understood.. A gentler way to understand your health, notice patterns, and take informed next steps ΓÇö without overpromising.</p><div class="flex flex-col sm:flex-row gap-4"><a href="/dashboard" class="hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink inline-flex items-center justify-center h-12 px-8 text-base font-medium text-white bg-deep rounded-lg hover:bg-pink transition-colors text-center">Explore your health</a><a href="#screening" class="inline transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm font-medium text-ink hover:text-deep">How anemia screening works ΓåÆ</a></div></div><div class="order-1 md:order-2 mt-16 md:mt-0 relative"><div class="relative h-[460px] w-full md:h-[600px] max-w-[560px] mx-auto"><svg viewBox="0 0 600 520" class="absolute inset-0 w-full h-full opacity-80" aria-hidden="true"><circle cx="420" cy="400" r="170" fill="#F8DCE6"></circle><circle cx="540" cy="260" r="120" fill="#FCEBF1"></circle><circle cx="440" cy="160" r="150" fill="#FFF8FA" stroke="#F0DDE3" stroke-width="2"></circle><path d="M200 320 Q 300 100 460 280 T 580 340" fill="none" stroke="#F0DDE3" stroke-width="2"></path><path d="M260 230 Q 320 150 400 210 Q 460 210 500 270 Q 460 350 360 320 Q 260 290 260 230" fill="#E9A1BA"></path><ellipse cx="360" cy="240" rx="30" ry="36" fill="#FFF8FA" stroke="#F0DDE3" stroke-width="2"></ellipse><circle cx="360" cy="240" r="13" fill="#F8DCE6"></circle><path d="M140 420 Q 240 370 360 420 T 520 440" fill="none" stroke="#E9A1BA" stroke-width="3" stroke-linecap="round"></path><circle cx="180" cy="430" r="7" fill="#B8CDB8" opacity="0.7"></circle><circle cx="350" cy="445" r="7" fill="#B8CDB8" opacity="0.7"></circle><circle cx="490" cy="435" r="7" fill="#B8CDB8" opacity="0.7"></circle><circle cx="120" cy="180" r="40" fill="#E9A1BA" opacity="0.5"></circle><circle cx="520" cy="400" r="50" fill="#F8DCE6" opacity="0.6"></circle></svg></div></div></div><div class="mt-16 md:mt-20 border-t border-border pt-8 md:pt-12"><h2 class="text-section mb-8">Three things we believe</h2><div class="grid gap-6 md:grid-cols-3"><div class="rounded-xl border border-border bg-white shadow-soft p-6"><div class="p-0 pt-6 pb-6"><h3 class="text-sm font-semibold text-ink mb-3">No fake results</h3><p class="text-sm text-ink/70">Image screening returns ΓÇ£model unavailableΓÇ¥ until a validated model exists. We never fabricate anemia probabilities.</p></div></div><div class="rounded-xl border border-border bg-white shadow-soft p-6"><div class="p-0 pt-6 pb-6"><h3 class="text-sm font-semibold text-ink mb-3">No silent data collection</h3><p class="text-sm text-ink/70">No third-party AI services. No logging of image contents. Local prototype storage only.</p></div></div><div class="rounded-xl border border-border bg-white shadow-soft p-6"><div class="p-0 pt-6 pb-6"><h3 class="text-sm font-semibold text-ink mb-3">Care first, software second</h3><p class="text-sm text-ink/70">Every screening path ends with a plain-language recommendation: talk with a clinician when appropriate.</p></div></div></div></div></div></section><section id="screening" class="section" aria-labelledby="screening-heading"><div class="page-container"><div class="md:flex md:items-center md:gap-12"><div class="md:w-1/2"><p class="text-xs font-sans font-semibold text-pink tracking-wider uppercase mb-3">Signature feature ΓÇö in development</p><h2 id="screening-heading" class="mb-6">Image-assisted anemia screening</h2><p class="text-ink/80 mb-8">HerHealth AIΓÇÖs first screening feature works with two kinds of photos: a close-up of your inner lower eyelid (conjunctiva), and a close-up of a fingernail or nail bed. Changes in pallor can be associated with anemia ΓÇö but photos alone cannot measure hemoglobin or confirm anything.</p><div class="grid gap-4 md:grid-cols-2"><div class="rounded-xl border border-border bg-white shadow-soft"><div class="p-6"><div class="flex items-start gap-3 mb-4"><div class="w-8 h-8 rounded-full bg-baby flex items-center justify-center shrink-0"><span class="text-[10px] text-deep font-bold">Γ£ô</span></div><div><h3 class="text-sm font-semibold text-ink">Inner lower eyelid</h3><p class="text-sm text-ink/70 mt-1">A well-lit, close-up photo of the inside of your lower eyelid (conjunctiva). Pale conjunctiva can be associated with anemia.</p></div></div><p class="text-xs text-ink/50 font-sans">Look straight ahead, gently pull the lower lid down, use natural light, no flash or filters.</p></div></div><div class="rounded-xl border border-border bg-white shadow-soft"><div class="p-6"><div class="flex items-start gap-3 mb-4"><div class="w-8 h-8 rounded-full bg-baby flex items-center justify-center shrink-0"><span class="text-[10px] text-deep font-bold">Γ£ô</span></div><div><h3 class="text-sm font-semibold text-ink">Fingernail &amp; nail bed</h3><p class="text-sm text-ink/70 mt-1">A close-up photo of a clean, unpolished fingernail and the nail bed beneath it.</p></div></div><p class="text-xs text-ink/50 font-sans">Natural nail polish only, daylight, hold the camera steady, avoid zoom.</p></div></div></div><div class="mt-10 rounded-lg border border-deep/20 bg-cream p-6 text-deep/90"><p class="font-semibold mb-2">Honest about what this is ΓÇö and isnΓÇÖt</p><p class="text-sm text-deep/80 leading-relaxed">Real AI analysis is <strong>not available yet</strong>. No model has been validated or integrated, so this will never return a fabricated anemia probability. A blood test is the only way to confirm anemia. This feature exists to help you notice patterns and prepare for a conversation with a clinician.</p></div></div><div class="md:w-1/2 md:pl-10 mt-10 md:mt-0"><div class="space-y-4"><div class="rounded-xl border border-border bg-white p-6 shadow-soft"><p class="text-xs font-sans font-semibold text-pink uppercase tracking-wider mb-3">Example 1 ┬╖ Inner lower eyelid</p><svg viewBox="0 0 320 180" class="w-full h-auto" role="img" aria-label="Illustration of a close-up of the inner lower eyelid"><rect width="320" height="180" fill="#FFF8FA" rx="12"></rect><path d="M40 96 Q 160 24 280 96 Q 160 168 40 96 Z" fill="#F8DCE6"></path><path d="M40 96 Q 160 24 280 96" fill="none" stroke="#8D435F" stroke-width="3" stroke-linecap="round"></path><path d="M60 104 Q 160 148 260 104" fill="none" stroke="#E9A1BA" stroke-width="10" stroke-linecap="round" opacity="0.75"></path><ellipse cx="160" cy="92" rx="34" ry="26" fill="#FFFFFF"></ellipse><circle cx="160" cy="92" r="15" fill="#8D435F"></circle><circle cx="160" cy="92" r="6" fill="#382C32"></circle><circle cx="153" cy="85" r="4" fill="#FFFFFF" opacity="0.9"></circle></svg><p class="text-xs text-ink/50 mt-3">Well-lit and unfiltered. Skin tone, lighting, and camera settings all affect how pale an eyelid looks.</p></div><div class="rounded-xl border border-border bg-white p-6 shadow-soft"><p class="text-xs font-sans font-semibold text-pink uppercase tracking-wider mb-3">Example 2 ┬╖ Fingernail and nail bed</p><svg viewBox="0 0 320 180" class="w-full h-auto" role="img" aria-label="Illustration of a close-up of a fingernail and nail bed"><rect width="320" height="180" fill="#FFF8FA" rx="12"></rect><path d="M120 180 Q 118 92 160 74 Q 202 92 200 180 Z" fill="#F1C4A8"></path><path d="M132 180 Q 130 100 160 84 Q 190 100 188 180 Z" fill="#F8D3BE"></path><path d="M138 130 Q 160 118 182 130 L 182 150 Q 160 160 138 150 Z" fill="#E7A98F" opacity="0.85"></path><path d="M136 124 Q 160 110 184 124 L 186 136 Q 160 148 134 136 Z" fill="#FBE3D6" stroke="#D9A488" stroke-width="2"></path><path d="M148 122 Q 160 116 172 122" fill="none" stroke="#FFF8FA" stroke-width="3" stroke-linecap="round"></path></svg><p class="text-xs text-ink/50 mt-3">Natural nails only, daylight, no filters. Nail polish and colour on the skin change what a camera captures.</p></div></div></div></div></div></section><section id="cycle" class="section bg-white" aria-labelledby="cycle-heading"><div class="page-container"><div class="lg:flex lg:items-center lg:gap-16 lg:flex-row-reverse"><div class="lg:w-1/2 mt-10 lg:mt-0"><div class="rounded-xl border border-border bg-white shadow-soft"><div class="p-6"><div class="flex items-center gap-2 mb-4"><div class="w-2 h-2 rounded-full bg-pink"></div><span class="text-xs font-semibold text-ink uppercase tracking-wider">Preview</span></div><div class="grid grid-cols-7 gap-1 text-xs"><div class="text-center text-ink/50">S</div><div class="text-center text-ink/50">M</div><div class="text-center text-ink/50">T</div><div class="text-center text-ink/50">W</div><div class="text-center text-ink/50">T</div><div class="text-center text-ink/50">F</div><div class="text-center text-ink/50">S</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">1</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">2</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">3</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">4</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">5</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">6</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">7</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">8</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">9</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">10</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">11</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">12</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">13</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">14</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">15</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">16</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">17</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">18</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">19</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">20</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">21</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">22</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">23</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">24</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">25</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 bg-pink/30 text-deep font-medium">26</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">27</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">28</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">29</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">30</div><div class="h-10 flex items-center justify-center rounded-lg text-ink/60 ">31</div></div><p class="mt-4 text-xs text-ink/60">Period days, flow intensity, and symptom notes appear on your calendar once you log your first entry.</p></div></div></div><div class="lg:w-1/2"><p class="text-xs font-sans font-semibold text-pink tracking-wider uppercase mb-3">Log your cycle, your way</p><h2 id="cycle-heading" class="mb-6">Menstrual health tracking</h2><p class="text-ink/80 mb-8">Record period start and end dates, flow intensity, and symptoms. Over time youΓÇÖll see your own cycle length and period duration ΓÇö your baseline, not an average. We never invent dates or present estimates as facts.</p><a href="/cycle-tracking" class="hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink inline-block px-5 py-2.5 text-sm font-medium text-white bg-deep rounded-lg hover:bg-pink transition-colors">Open cycle tracking ΓåÆ</a></div></div></div></section><section id="education" class="section" aria-labelledby="education-heading"><div class="page-container"><div class="flex flex-col lg:flex-row lg:items-end lg:gap-6 mb-12"><div><p class="text-xs font-sans font-semibold text-pink tracking-wider uppercase mb-3">Read, don&amp;rsquo;t self-diagnose</p><h2 id="education-heading" class="mb-4">Women&amp;rsquo;s health education</h2></div></div><p class="text-ink/80 mb-12 max-w-2xl">Original articles on anemia and iron-rich nutrition, menstrual health, PCOS, preventive care, and when to seek medical attention ΓÇö each with references to reputable health organizations and a clear line between education and personal medical advice.</p><div class="grid gap-6 md:grid-cols-3"><div class="rounded-xl border border-border bg-white shadow-soft"><div class="p-6"><p class="text-xs font-sans font-semibold text-pink mb-2">Anemia ΓÇó 5 min read</p><h3 class="font-serif text-ink mb-3">Understanding anemia and iron deficiency</h3><p class="text-sm text-ink/80">What anemia is, common signs, and why only a blood test can confirm it.</p></div></div><div class="rounded-xl border border-border bg-white shadow-soft"><div class="p-6"><p class="text-xs font-sans font-semibold text-pink mb-2">Nutrition ΓÇó 6 min read</p><h3 class="font-serif text-ink mb-3">Iron-rich foods and nutrition</h3><p class="text-sm text-ink/80">Heme and non-heme iron, food sources, and vitamin C pairing for absorption.</p></div></div><div class="rounded-xl border border-border bg-white shadow-soft"><div class="p-6"><p class="text-xs font-sans font-semibold text-pink mb-2">Menstrual health ΓÇó 5 min read</p><h3 class="font-serif text-ink mb-3">Menstrual health: what is typical</h3><p class="text-sm text-ink/80">Cycle length, bleeding patterns, and when to talk with a clinician.</p></div></div></div><p class="mt-12"><a href="/education" class="inline transition-colors underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-deep font-medium hover:underline">Browse the full education library ΓåÆ</a></p></div></section><section id="privacy" class="section bg-rose" aria-labelledby="privacy-heading"><div class="page-container"><div class="max-w-3xl mx-auto text-center"><h2 id="privacy-heading" class="mb-6">Privacy and responsible screening</h2><ul class="grid gap-4 md:grid-cols-3 text-sm text-ink/80 leading-relaxed"><li class="flex items-start gap-3"><span class="mt-1 text-deep">Γ£ô</span>Local prototype only. Records live in a local SQLite file ΓÇö there is no multi-user account system yet.</li><li class="flex items-start gap-3"><span class="mt-1 text-deep">Γ£ô</span>Nothing here diagnoses anemia, PCOS, or any other condition.</li><li class="flex items-start gap-3"><span class="mt-1 text-deep">Γ£ô</span>Screening images are validated by type and size, never logged, and are not sent to third-party AI services.</li></ul><p class="mt-10 text-xs text-ink/60">Educational content references public health authorities (CDC, NHLBI, ACOG, Office on WomenΓÇÖs Health, MedlinePlus) and never invents statistics or citations.</p></div></div></section></div></main><footer class="border-t border-border bg-white mt-auto"><div class="page-container py-10 md:py-16"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10"><div class="col-span-1 lg:col-span-2"><div class="flex items-center gap-2 mb-4"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="shrink-0"><path d="M14 22c-3.3 0-6-2.7-6-6 0-1.7 0.7-3.2 1.8-4.3C7.9 12.4 7 11 7 9a1 1 0 1 1 2 0c0 1.1 0.9 2 2 2 0.6 0 1.1-0.2 1.5-0.6l1.5 1.5c-0.4 0.4-0.9 0.6-1.5 0.6-1.1 0-2 0.9-2 2 0 1.1 0.9 2 2 2s2-0.9 2-2c0-1.1 0.9-2 2-2s2 0.9 2 2c0 2-0.9 3.4-2.2 4.7C18 14.8 14 19.3 14 22Z" fill="#8D435F"></path><path d="M14 26a1 1 0 1 1 0-2c-3.9 0-7-3.1-7-7 0-1.1 0.2-2.1 0.6-3 0.1-0.2 0.1-0.4 0.1-0.6a1 1 0 1 1 2 0c0 0.2 0 0.4 0.1 0.6 0.4 0.9 0.6 1.9 0.6 3 0 3.9-3.1 7-7 7" fill="#F8DCE6"></path><path d="M14 22c3.3 0 6-2.7 6-6 0-1.7-0.7-3.2-1.8-4.3C20.1 12.4 21 11 21 9a1 1 0 1 0-2 0c0 1.1-0.9 2-2 2-0.6 0-1.1 0.2-1.5 0.6l-1.5 1.5c0.4 0.4 0.9 0.6 1.5 0.6 1.1 0 2 0.9 2 2 0 1.1-0.9 2-2 2s-2-0.9-2-2c0-1.1-0.9-2-2-2s-2 0.9-2-2c0-2 0.9-3.4 2.2-4.7C10 14.8 14 19.3 14 22Z" fill="#E9A1BA"></path><circle cx="14" cy="10" r="2.6" fill="#FCEBF1"></circle><circle cx="14" cy="10" r="1" fill="#8D435F" opacity="0.35"></circle></svg><span class="font-serif text-xl font-semibold text-ink tracking-tight">HerHealth</span><span class="text-xs font-sans font-semibold text-pink tracking-wider uppercase ml-1">AI</span></div><p class="text-sm text-ink/70 leading-relaxed max-w-xs">A gentler way to understand your health, notice patterns, and take informed next steps. Local prototype ΓÇö not a clinical tool.</p></div><div><h3 class="text-sm font-semibold text-deep mb-4">Platform</h3><ul class="space-y-2"><li><a href="/screening/anemia" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">How anemia screening works</a></li><li><a href="/cycle-tracking" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">Cycle tracking</a></li><li><a href="/education" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">Health education library</a></li><li><a href="/reports" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">Reports &amp; history</a></li></ul></div><div><h3 class="text-sm font-semibold text-deep mb-4">About</h3><ul class="space-y-2"><li><a href="#responsible-screening" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">Our approach to responsible screening</a></li><li><a href="#privacy" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">Privacy &amp; data</a></li><li><a href="#limitations" class="inline font-medium transition-colors hover:underline underline-offset-4 focus-visible:underline focus-visible:ring-2 focus-visible:ring-pink rounded-sm px-1 text-sm text-ink/70 hover:text-deep">Limitations</a></li></ul></div></div><div class="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4"><p class="text-xs text-ink/50">HerHealth AI ┬╖ Early risk awareness &amp; wellness education</p><p class="text-xs text-ink/50">Not a diagnostic device. Images and questionnaire answers are not a substitute for professional medical advice, diagnosis, or treatment.</p></div></div></footer></div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  
+</body></html>

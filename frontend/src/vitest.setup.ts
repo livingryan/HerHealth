@@ -1,0 +1,29 @@
+import "@testing-library/jest-dom";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+
+/** `i18next-http-backend` loads translation files over HTTP. In the browser that
+ * hits `/locales/<lng>.json`; under jsdom there is no dev server, so those
+ * requests would fail and every `t()` call would fall back to the raw key.
+ *
+ * Stub `fetch` so the requests resolve against the real files in
+ * `public/locales`, keeping the tests faithful to production behaviour. */
+const LOCALES_DIR = resolve(process.cwd(), "public", "locales");
+
+const realFetch = globalThis.fetch;
+
+globalThis.fetch = (async (input: RequestInfo | URL, init?: RequestInit) => {
+  const url = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
+  const match = /\/locales\/([A-Za-z-]+)\.json$/.exec(url);
+
+  if (match) {
+    const body = readFileSync(resolve(LOCALES_DIR, `${match[1]}.json`), "utf8");
+
+    return new Response(body, {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  return realFetch(input as RequestInfo, init);
+}) as typeof fetch;
